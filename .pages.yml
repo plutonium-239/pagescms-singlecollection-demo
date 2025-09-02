@@ -23,6 +23,6 @@ content:
         type: reference
         options:
           collection: topics
-          # search: category
-          # value: '{category}'
-          # label: '{category}'
+          search: category
+          value: '{category}'
+          label: '{category}'
