@@ -9,7 +9,7 @@ content:
       - name: category
         label: Category
         type: string
-      - name: subcategory
+      - name: subcategories
         label: Subcategory
         type: string
         list: true
