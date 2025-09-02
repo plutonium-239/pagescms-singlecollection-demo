@@ -1,0 +1,28 @@
+media: static/
+content:
+  - name: topics
+    path: static/topics.json
+    type: file
+    format: json
+    list: true
+    fields:
+      - name: category
+        label: Category
+        type: string
+      - name: subcategory
+        label: Subcategory
+        type: string
+        list: true
+  - name: referer_content
+    label: Example Content
+    path: static/content
+    type: collection
+    fields:
+      - name: topic
+        label: Topic (subcategorical)
+        type: reference
+        options:
+          collection: topics
+          # search: category
+          # value: '{category}'
+          # label: '{category}'

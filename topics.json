@@ -1,0 +1,10 @@
+[
+    {
+        "category": "good",
+        "subcategories": ["dogs"]
+    },
+    {
+        "category": "fluffy",
+        "subcategories": ["dogs"]
+    }
+]
